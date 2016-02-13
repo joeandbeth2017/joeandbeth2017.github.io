@@ -9,15 +9,15 @@ navlinks:
     - text: The Big Day
       url: /#wedding
     - text: How We Met
-      url: /
+      url: /#howwemet
     - text: The Proposal
-      url: /
+      url: /#proposal
     - text: The Bridal Party
-      url: /
+      url: /#bridalparty
     - text: Accommodations
-      url: /
+      url: /#accommodations
     - text: What's Nearby
-      url: /
+      url: /#nearby
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-67591322-1
