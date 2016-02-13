@@ -28,6 +28,12 @@ body {
 header {
   color: springgreen;
   background-color: violet;
+  text-shadow:
+       3px 3px 0 black,
+     -1px -1px 0 black,  
+      1px -1px 0 black,
+      -1px 1px 0 black,
+       1px 1px 0 black;
   text-align: center;
   padding: 20px 0 50px 0;
 }

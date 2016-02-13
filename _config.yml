@@ -7,7 +7,7 @@ groom : Joe
 
 navlinks:
     - text: The Big Day
-      url: /
+      url: /#wedding
     - text: How We Met
       url: /
     - text: The Proposal
