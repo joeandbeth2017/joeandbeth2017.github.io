@@ -26,7 +26,7 @@ body {
 
 header {
   color: springgreen;
-  background-color: violet;
+  background-color: {{ site.color2 }};
   text-align: center;
   padding: 20px 0 50px 0;
 }
@@ -154,8 +154,6 @@ img {
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
-
-
 
 .site-name {
   margin: 0;
