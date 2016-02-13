@@ -1,4 +1,8 @@
-<h2 id="wedding">The Big Day</h2>
+---
+layout: page
+title: The Big Day
+permalink: /wedding/
+---
 
 <p>
 August 12, 2017<br />

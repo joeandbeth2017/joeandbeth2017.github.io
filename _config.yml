@@ -7,17 +7,17 @@ groom : Joe
 
 navlinks:
     - text: The Big Day
-      url: /#wedding
+      url: /
     - text: How We Met
-      url: /#howwemet
+      url: /howwemet/
     - text: The Proposal
-      url: /#proposal
+      url: /proposal/
     - text: The Bridal Party
-      url: /#bridalparty
+      url: /bridalparty/
     - text: Accommodations
-      url: /#accommodations
+      url: /accommodations/
     - text: What's Nearby
-      url: /#nearby
+      url: /nearby/
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-67591322-1

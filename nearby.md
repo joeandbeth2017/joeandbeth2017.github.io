@@ -1,4 +1,8 @@
-<h2 id="nearby">What's Nearby?</h2>
+---
+layout: page
+title: What's Nearby?
+permalink: /nearby/
+---
 
 <iframe
   width="600"

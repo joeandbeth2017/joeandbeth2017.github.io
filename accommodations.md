@@ -1,4 +1,8 @@
-<h2 id="accommodations">Accommodations</h2>
+---
+layout: page
+title: Accommodations
+permalink: /accommodations/
+---
 
 <iframe
   width="600"
