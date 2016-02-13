@@ -9,18 +9,18 @@ color1: purple
 color2: green
 
 navlinks:
-	- text: The Big Day
-	  url: /
-	- text: How We Met
-	  url: /
-	- text: The Proposal
-	  url: /
-	- text: The Bridal Party
-	  url: /
-	- text: Accommodations
-	  url: /
-	- text: What's Nearby
-	  url: /
+    - text: The Big Day
+      url: /
+    - text: How We Met
+      url: /
+    - text: The Proposal
+      url: /
+    - text: The Bridal Party
+      url: /
+    - text: Accommodations
+      url: /
+    - text: What's Nearby
+      url: /
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-67591322-1
