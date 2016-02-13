@@ -20,8 +20,8 @@ html {
 
 body {
   font: 18px/1.4 $helvetica;
-  color: green;
-  background-color: purple;
+  color: springreen;
+  background-color: violet;
 }
 
 .container {
@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  text-align: center;
   font-size: 30px;
   
   a {
@@ -160,6 +159,7 @@ img {
 */
 
 .masthead {
+  text-align: center;
   padding: 20px 0 50px 0;
   border-bottom: 1px solid $lightGray;
 
@@ -170,14 +170,12 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
 }
-
 
 nav {
   text-align: center;
@@ -194,7 +192,6 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
     font-weight: 300;
     letter-spacing: 1px;
 
