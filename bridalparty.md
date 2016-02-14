@@ -4,4 +4,10 @@ title: The Bridal Pary
 permalink: /bridalparty/
 ---
 
-To Do
+### Bride
+
+Beth Wirick
+
+### Groom
+
+Joe Hendrix
