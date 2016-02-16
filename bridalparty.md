@@ -12,6 +12,6 @@ Beth Wirick
 
 ### Groom
 
-Joe Hendrix
-
 <img src="/images/joe.jpg" class="bridalpartyphoto" />
+
+Joe Hendrix
