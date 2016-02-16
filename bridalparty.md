@@ -6,7 +6,7 @@ permalink: /bridalparty/
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<div style="text-align: center;">
+<div style="flex: 1; text-align: center;">
 
 <h3>Bride</h3>
 
@@ -14,7 +14,7 @@ permalink: /bridalparty/
 
 <br />Beth Wirick
 
-</div><div style="text-align: center;">
+</div><div style="flex: 1; text-align: center;">
 
 <h3>Groom</h3>
 
