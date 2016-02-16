@@ -6,6 +6,8 @@ permalink: /bridalparty/
 
 ### Bride
 
+<img src="images/beth.jpg" class="bridalpartyphoto" />
+
 Beth Wirick
 
 ### Groom
