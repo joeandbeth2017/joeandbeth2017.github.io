@@ -62,7 +62,17 @@ header, footer {
 }
 
 .bridalpartyphoto {
-	border-radius: 100%;
+   border-radius: 100%;
+}
+
+.bridalpartyflexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bridalpartyflexbox {
+  flex: 1;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {

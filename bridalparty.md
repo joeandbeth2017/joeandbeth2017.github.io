@@ -4,9 +4,9 @@ title: The Bridal Pary
 permalink: /bridalparty/
 ---
 
-<div style="display: flex; flex-wrap: wrap;">
+<div class="bridalpartyflexcontainer">
 
-<div style="flex: 1; text-align: center;">
+<div class="bridalpartyflexbox">
 
 <h3>Bride</h3>
 
@@ -14,7 +14,7 @@ permalink: /bridalparty/
 
 <br />Beth Wirick
 
-</div><div style="flex: 1; text-align: center;">
+</div><div class="bridalpartyflexbox">
 
 <h3>Groom</h3>
 
