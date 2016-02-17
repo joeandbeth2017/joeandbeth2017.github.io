@@ -8,10 +8,8 @@ groom : Joe
 navlinks:
     - text: The Big Day
       url: /
-    - text: How We Met
-      url: /howwemet/
-    - text: The Proposal
-      url: /proposal/
+    - text: About Us
+      url: /aboutus/
     - text: The Bridal Party
       url: /bridalparty/
     - text: Accommodations
