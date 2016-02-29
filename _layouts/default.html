@@ -9,6 +9,29 @@
 		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script>
+		$(function(){
+			var date = new Date("{{ site.date }}");
+			var now = Date.now();
+			
+			//Get 1 day in milliseconds
+  			var oneDay=1000*60*60*24;
+
+		  	// Convert both dates to milliseconds
+		  	var date_ms = date.getTime();
+		  	var now_ms = now.getTime();
+
+		  	// Calculate the difference in milliseconds
+		  	var difference_ms = date_ms - now_ms;
+    
+  			// Convert back to days and return
+  			var daysLeft = Math.round(difference_ms/oneDay); 
+			
+			$("#countdown").text(daysLeft + " days left!");
+		});
+		</script>
+		
 		<link rel="stylesheet" type="text/css" href="/style.css" />
 		<!-- link href="/favicon.ico?" rel="shortcut icon" type="image/x-icon" / -->
 	</head>
@@ -34,6 +57,6 @@
 			{{ site.groom }} &amp; {{ site.bride }}
 		</footer>
 		
-		<div id="countdown">Countdown</div>
+		<div id="countdown"></div>
 	</body>
 </html>
