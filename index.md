@@ -4,7 +4,7 @@ title: The Big Day
 ---
 
 <p>
-August 12, 2017<br />
+{{ site.date }}<br />
 St Chris, Vandalia, Ohio
 </p>
 
