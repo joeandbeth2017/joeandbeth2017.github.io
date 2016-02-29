@@ -12,15 +12,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script>
 		$(function(){
-			var date = new Date("{{ site.date }}");
-			var now = Date.now();
+			var date_ms = new Date("{{ site.date }}").getTime();
+			var now_ms = Date.now();
 			
 			//Get 1 day in milliseconds
   			var oneDay=1000*60*60*24;
-
-		  	// Convert both dates to milliseconds
-		  	var date_ms = date.getTime();
-		  	var now_ms = now.getTime();
 
 		  	// Calculate the difference in milliseconds
 		  	var difference_ms = date_ms - now_ms;
