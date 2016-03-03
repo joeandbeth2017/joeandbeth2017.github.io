@@ -57,7 +57,7 @@ header, footer {
   max-width: 1000px;
   
   @include mobile {
-  	max-width: 400px;
+  	max-width: 500px;
   }
 }
 
@@ -68,6 +68,10 @@ header, footer {
 .bridalpartyflexcontainer {
   display: flex;
   flex-wrap: wrap;
+  
+  @include mobile {
+  	max-width: 300px;
+  }
 }
 
 .bridalpartyflexbox {
