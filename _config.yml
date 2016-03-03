@@ -17,6 +17,8 @@ navlinks:
       url: /accommodations/
     - text: What's Nearby
       url: /nearby/
+    - text: Guestbook
+      url: /guestbook/
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-67591322-1
