@@ -1,6 +1,3 @@
-<!-- Set the days left -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script>
 $(function(){
 	var date_ms = new Date("{{ site.date }}").getTime();
 	var now_ms = Date.now();
@@ -16,4 +13,3 @@ $(function(){
 	
 	$("#countdown").text(daysLeft + " days left!");
 });
-</script>
