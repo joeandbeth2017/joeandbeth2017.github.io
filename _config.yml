@@ -4,6 +4,10 @@ bride: Beth
 groom : Joe
 date: August 12, 2017
 
+colors:
+    - "#A6B175"
+    - "#C2A4BF"
+
 navlinks:
     - text: About Us
       url: /aboutus/
