@@ -212,8 +212,11 @@ img {
 }
 
 .gmap {
-	border-radius: 20px;
-	margin: 25px;
+  border-radius: 20px;
+  border: 0;
+  margin: 25px;
+  width: 600px;
+  height: 450px;
 }
 
 nav {
