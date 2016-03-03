@@ -57,7 +57,7 @@ header, footer {
   max-width: 1000px;
   
   @include mobile {
-  	max-width: 500px;
+  	max-width: 400px;
   }
 }
 
@@ -73,6 +73,22 @@ header, footer {
 .bridalpartyflexbox {
   flex: 1;
   text-align: center;
+}
+
+.mobile {
+  display: none;
+	
+  @include mobile {
+    display: initial;
+  }
+}
+
+.not-mobile {
+  display: initial;
+	
+  @include mobile {
+    display: none;	
+  }
 }
 
 #countdown {
