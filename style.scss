@@ -217,6 +217,11 @@ img {
   margin: 25px;
   width: 600px;
   height: 450px;
+  
+  @include mobile {
+	  width: 80%;
+	  height: 50%;
+  }
 }
 
 nav {
