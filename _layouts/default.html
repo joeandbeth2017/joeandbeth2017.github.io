@@ -27,7 +27,7 @@
 			</div>
 
 			<nav>
-			{% for navlink in site.navlinks %}<a href="{{ navlink.url }}">{{ navlink.text }}</a>{% unless forloop.last %}<span class="not-mobile">|</span><span class="mobile"><br /></span>{% endunless %}{% endfor %}
+			{% for post in site.posts %}<a href="{{ post.url }}">{{ post.title }}</a>{% unless forloop.last %}<span class="not-mobile">|</span><span class="mobile"><br /></span>{% endunless %}{% endfor %}
 			</nav>
 		</header>
 		

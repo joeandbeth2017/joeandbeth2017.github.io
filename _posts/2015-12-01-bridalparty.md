@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The Bridal Pary
-permalink: /bridalparty/
 ---
 
 <div class="bridalpartyflexcontainer">
