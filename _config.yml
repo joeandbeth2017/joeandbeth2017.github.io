@@ -32,19 +32,13 @@ url: http://joeandbeth2017.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-# GitHub only supports this flavor of markdown
-# that type of highlighter
+# GitHub only supports "kramdown" flavor of markdown
+# and "rouge" type of highlighter
 
 markdown: kramdown
 highlighter: rouge
 
-
 permalink: /:title/
-
 paginate: 3
 paginate_path: "/page:num"
 
