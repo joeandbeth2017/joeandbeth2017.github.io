@@ -21,6 +21,7 @@ navlinks:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-67591322-1
 google_api_key: AIzaSyDEW_nAbT0mgB_r3f7dguJ5-c6vb2sZAgE
+fb_app_id: 1660279814248162
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
