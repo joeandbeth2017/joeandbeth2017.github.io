@@ -8,18 +8,6 @@ colors:
     - "#A6B175"
     - "#C2A4BF"
 
-navlinks:
-    - text: About Us
-      url: /aboutus/
-    - text: The Bridal Party
-      url: /bridalparty/
-    - text: Accommodations
-      url: /accommodations/
-    - text: What's Nearby
-      url: /nearby/
-    - text: Guestbook
-      url: /guestbook/
-
 # Various app ids
 google_analytics: UA-67591322-1
 google_api_key: AIzaSyDEW_nAbT0mgB_r3f7dguJ5-c6vb2sZAgE
