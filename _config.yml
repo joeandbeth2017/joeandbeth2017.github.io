@@ -7,8 +7,6 @@ groom : Joe
 date: August 12, 2017
 
 navlinks:
-#    - text: The Big Day
-#      url: /
     - text: About Us
       url: /aboutus/
     - text: The Bridal Party
@@ -20,7 +18,7 @@ navlinks:
     - text: Guestbook
       url: /guestbook/
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Various app ids
 google_analytics: UA-67591322-1
 google_api_key: AIzaSyDEW_nAbT0mgB_r3f7dguJ5-c6vb2sZAgE
 fb_app_id: 1660279814248162
