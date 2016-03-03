@@ -1,3 +1,6 @@
+---
+---
+
 $(function(){
 	var date_ms = new Date("{{ site.date }}").getTime();
 	var now_ms = Date.now();
