@@ -7,6 +7,9 @@ date: August 12, 2017
 colors:
     - "#A6B175"
     - "#C2A4BF"
+	
+font: Rouge Script
+# Cinzel Decorative
 
 # Various app ids
 google_analytics: UA-67591322-1
