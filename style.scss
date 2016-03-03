@@ -68,7 +68,7 @@ header, footer {
 .bridalpartyflexcontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   
   @include mobile {
   	max-width: 350px;
