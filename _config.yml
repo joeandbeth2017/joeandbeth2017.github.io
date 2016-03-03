@@ -7,8 +7,8 @@ groom : Joe
 date: August 12, 2017
 
 navlinks:
-    - text: The Big Day
-      url: /
+#    - text: The Big Day
+#      url: /
     - text: About Us
       url: /aboutus/
     - text: The Bridal Party
