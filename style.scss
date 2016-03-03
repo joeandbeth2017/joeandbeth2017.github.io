@@ -34,8 +34,8 @@ footer {
 }
 
 header, footer {
-  color: #A6B175;
-  background-color: #C2A4BF;
+  color: {{ site.colors[0] }};
+  background-color: {{ site.colors[1] }};
   text-shadow:
        3px 3px 0 black,
      -1px -1px 0 black,  
