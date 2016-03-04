@@ -126,6 +126,14 @@ h2 {
   font-size: 24px;
 }
 
+h2::before, h3::before {
+  content: "- ";
+}
+
+h2::after, h3::after {
+  content: " -";
+}
+
 h3 {
   font-size: 20px;
 }
