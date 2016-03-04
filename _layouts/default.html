@@ -20,9 +20,7 @@
 	</head>
 	<body>{% include facebook.html %}
 		<header class="clearfix">
-			<div class="site-info">
-				<h1><a href="{{ site.baseurl }}/">{{ site.groom }} &amp; {{ site.bride }}</a></h1>
-			</div>
+			<h1><a href="{{ site.baseurl }}/">{{ site.groom }} &amp; {{ site.bride }}</a></h1>
 
 			<nav>
 			{% for post in site.posts %}<a href="{{ post.url }}">{{ post.title }}</a>{% unless forloop.last %}<span class="not-mobile">|</span><span class="mobile"><br /></span>{% endunless %}{% endfor %}
