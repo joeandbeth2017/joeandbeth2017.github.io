@@ -25,7 +25,6 @@ body {
 }
 
 header {
-  min-height: 25%;
   font-family: '{{ site.font }}', cursive;
 }
 
@@ -43,7 +42,7 @@ header, footer {
       -1px 1px 0 black,
        1px 1px 0 black;
   text-align: center;
-  padding: 20px 0 50px 0;
+  padding: 20px 0 25px 0;
 }
 
 main {
@@ -117,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
   letter-spacing: 2px;
   
