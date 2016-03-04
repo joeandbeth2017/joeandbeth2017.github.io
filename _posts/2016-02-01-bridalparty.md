@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Bridal Pary
+title: The Bridal Party
 ---
 
 <div class="bridalpartyflexcontainer">
