@@ -118,6 +118,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  margin: 0;
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 1px;
   
   a {
     color: inherit;
@@ -202,14 +206,6 @@ img {
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
-
-.site-name {
-  margin: 0;
-  cursor: pointer;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
 
 .gmap {
   border-radius: 20px;
