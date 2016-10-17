@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "bridalParty";
 
 /**************/
 /* BASE RULES */
@@ -54,26 +55,6 @@ main {
   @include mobile {
   	max-width: 500px;
   }
-}
-
-.bridalpartyphoto {
-   border-radius: 100%;
-}
-
-.bridalpartyflexcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  
-  @include mobile {
-  	max-width: 350px;
-  }
-}
-
-.bridalpartyflexbox {
-  flex: 1;
-  text-align: center;
-  max-width: 350px;
 }
 
 .mobile {
