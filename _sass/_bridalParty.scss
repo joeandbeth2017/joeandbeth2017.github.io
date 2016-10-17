@@ -1,0 +1,11 @@
+.bridal-party-photo {
+   border-radius: 100%;
+}
+
+.bridal-party {
+  display: inline-block;
+  
+  @include mobile {
+  	display: block;
+  }
+}
