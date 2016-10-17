@@ -7,11 +7,11 @@ title: The Bridal Party
   <div class="bridal-party bride">
     <h3>Bride</h3>
       <img src="/images/beth.jpg" class="bridal-party-photo" />
-      <br />Beth Wirick
+      Beth Wirick
   </div>
   <div class="bridal-party groom">
     <h3>Groom</h3>
-    <img src="/images/joe.jpg" class="bridal-party-photo" />
-    <br />Joe Hendrix
+      <img src="/images/joe.jpg" class="bridal-party-photo" />
+      Joe Hendrix
   </div>
 </div>
