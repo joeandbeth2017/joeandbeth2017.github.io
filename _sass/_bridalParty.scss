@@ -1,11 +1,13 @@
 .bridal-party-photo {
-   border-radius: 100%;
+    border-radius: 100%;
 }
 
 .bridal-party {
-  display: inline-block;
+    display: inline-block;
+    width: 49%;
   
-  @include mobile {
-  	display: block;
-  }
+    @include mobile {
+        display: block;
+        width: 100%;
+    }
 }
