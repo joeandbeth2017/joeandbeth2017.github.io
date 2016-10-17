@@ -3,22 +3,15 @@ layout: default
 title: The Bridal Party
 ---
 
-<div class="bridalpartyflexcontainer">
-
-<div class="bridalpartyflexbox">
-
-<h3>Bride</h3>
-
-<img src="/images/beth.jpg" class="bridalpartyphoto" />
-
-<br />Beth Wirick
-
-</div><div class="bridalpartyflexbox">
-
-<h3>Groom</h3>
-
-<img src="/images/joe.jpg" class="bridalpartyphoto" />
-
-<br />Joe Hendrix
-
-</div></div>
+<div class="bridal-party-container">
+  <div class="bridal-party-bride">
+    <h3>Bride</h3>
+      <img src="/images/beth.jpg" class="bridal-party-photo" />
+      <br />Beth Wirick
+  </div>
+  <div class="bridal-party-groom">
+    <h3>Groom</h3>
+    <img src="/images/joe.jpg" class="bridal-party-photo" />
+    <br />Joe Hendrix
+  </div>
+</div>
