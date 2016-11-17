@@ -6,5 +6,5 @@
 
 {% if page.url == "/index.html" %}<link rel="canonical" href="{{ site.url }}" /><link rel="alternate" href="{{ site.url }}" hreflang="en-us" />{% else %}<link rel="canonical" href="{{ site.url }}{{ page.url }}" /><link rel="alternate" href="{{ site.url }}{{ page.url }}" hreflang="en-us" />{% endif %}
 
-<meta name="author" content="Joseph Hendrix" />
-<meta name="author" content="Beth Wirick" />
+<meta name="author" content="{{ groom.first }} {{ groom.last }} " />
+<meta name="author" content="{{ bride.first }} {{ bride.last }} " />
