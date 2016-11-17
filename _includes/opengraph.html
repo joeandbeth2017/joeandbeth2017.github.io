@@ -15,4 +15,4 @@
 <meta property="og:url" content='{% if page.url == "/index.html" %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}' />
 
 <meta property="og:title" content="{{ site.groom }} &amp; {{ site.bride }}" />
-<meta name="description" content="{{ site.date | %A, %B %-d, %Y}} at {{ site.place.name }}, {{ site.place.city }}" />
+<meta name="description" content="{{ site.date | date: '%A, %B %-d, %Y' }} at {{ site.place.name }}, {{ site.place.city }}" />
