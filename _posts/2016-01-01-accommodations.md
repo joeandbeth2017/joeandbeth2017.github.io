@@ -3,4 +3,4 @@ layout: default
 title: Accommodations
 ---
 
-{% include gmap.html type="search" query="accommodations+Vandalia+OH" %}
+{% capture query %}accommodations {{ site.place.name }} {{ site.place.city }}{% include gmap.html type="search" query=query %}
