@@ -2,7 +2,7 @@
 ---
 
 $(function(){
-	var date_ms = new Date("{{ site.date | date: "%B %-d, %Y }}").getTime();
+	var date_ms = new Date("{{ site.date | date: "%B %-d, %Y" }}").getTime();
 	var now_ms = Date.now();
 	
 	// Get 1 day in milliseconds
