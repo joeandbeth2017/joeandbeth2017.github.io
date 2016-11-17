@@ -1,7 +1,13 @@
 # This file contains configuration flags to customize your site
 
-bride: Beth
-groom : Joe
+bride: 
+    first: Beth
+    last: Wirick
+    
+groom :
+    first: Joe
+    last: Hendrix
+    
 date: 2017-08-12
 
 place:
