@@ -12,7 +12,7 @@
 <meta property="website:published_time" content="{{ site.time | date: "%Y-%m-%d" }}" />
 <!-- meta property="og:image" content="{{ site.url }}{{ page.image }}" / -->
 
-{% if page.url == "/index.html" %}<meta property="og:url" content="{{ site.url }}" />{% else %}<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
+<meta property="og:url" content='{% if page.url == "/index.html" %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}' />
 
 <meta property="og:title" content="{{ site.groom }} &amp; {{ site.bride }}" />
 <meta name="description" content="Saturday, August 12, 2017 at St. Chris, Vandalia" />
