@@ -9,4 +9,4 @@ title: The Big Day
 {{ site.place.name }}, {{ site.place.city }}, {{ site.place.state }}
 </div>
 
-{% include gmap.html type="place" query="St+Christopher+Vandalia" %}
+{% capture query %}{{ site.place.name }} {{ site.place.city }}{% endcapture %}{% include gmap.html type="place" query=query %}
