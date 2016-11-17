@@ -4,7 +4,7 @@ title: The Big Day
 ---
 
 <p>
-{{ site.date }}<br />
+{{ site.date | date: "%B %-d %Y" }}<br />
 St Chris, Vandalia, Ohio
 </p>
 
