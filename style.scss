@@ -30,8 +30,8 @@ footer {
 }
 
 header, footer {
-  color: {{ site.colors[0] }};
-  background-color: {{ site.colors[1] }};
+  color: rgb(236, 113, 122);
+  background-color: rgb(130, 112, 173);
   text-shadow:
        3px 3px 0 black,
      -1px -1px 0 black,  
