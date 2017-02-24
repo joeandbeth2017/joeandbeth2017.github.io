@@ -16,6 +16,7 @@
 		<script src="/javascript/daysLeft.js"></script>
 		
 		<link rel="stylesheet" type="text/css" href="/style.css" />
+		{% for css in page.csses %}<link rel="stylesheet" type="text/css" href="{{ css }}" />{% endfor %}
 		<!-- link href="/favicon.ico?" rel="shortcut icon" type="image/x-icon" / -->
 	</head>
 	<body>{% include facebook.html %}
