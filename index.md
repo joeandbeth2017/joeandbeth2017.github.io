@@ -1,12 +1,6 @@
 ---
 layout: default
-title: The Big Day
+title: Welcome
 ---
 
-<div>
-{{ site.date | date: "%B %-d, %Y" }}
-</div><div>
-{{ site.place.name }}, {{ site.place.city }}, {{ site.place.state }}
-</div>
-
-{% capture query %}{{ site.place.name }} {{ site.place.city }}{% endcapture %}{% include gmap.html type="place" query=query %}
+![Beth, Joe, Princess & Niko](/images/engagement-photo.jpg "Beth, Joe, Princess & Niko")
