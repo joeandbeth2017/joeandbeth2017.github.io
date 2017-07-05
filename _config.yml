@@ -20,7 +20,7 @@ font: Dancing Script
 # Cinzel Decorative
 
 collections:
-- engagement
+  - engagement
 
 # Various app ids
 google_analytics: UA-67591322-1
