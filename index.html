@@ -1,0 +1,10 @@
+---
+layout: default
+title: Welcome
+---
+
+<div><img src="/images/engagement-photo.jpg" /></div>
+
+{% for image in site.images %}
+<div style="display: none;"><img src="{{ image.path }}" /></div>
+{% endfor %}
