@@ -19,9 +19,6 @@ place:
 font: Dancing Script
 # Cinzel Decorative
 
-collections:
-  - engagement
-
 # Various app ids
 google_analytics: UA-67591322-1
 google_api_key: AIzaSyDEW_nAbT0mgB_r3f7dguJ5-c6vb2sZAgE
