@@ -13,7 +13,7 @@ title: Welcome
 }
 </style>
 
-<div id="photos-div">
+<div class="photos-div">
 Click or tap photos to view more!
 <div class="inner-photos-div"><img src="/images/engagement-photo.jpg" /></div>
 {% for image in site.data.images %}<div class="inner-photos-div" style="display: none;"><img src="/images/engagement/{{ image.filename }}" /></div>{% endfor %}
