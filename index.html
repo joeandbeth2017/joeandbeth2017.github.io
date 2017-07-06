@@ -3,18 +3,26 @@ layout: default
 title: Welcome
 ---
 
-<div id="photos-div">
-<div class="inner-photos-div"><img src="/images/engagement-photo.jpg" /></div>
+<style>
+.photos-div {
+  text-align: center;
+}
+  
+.inner-photos-div {
+  max-height: 980px;
+}
+</style>
 
-{% for image in site.data.images %}
-<div class="inner-photos-div" style="display: none;"><img src="/images/engagement/{{ image.filename }}" /></div>
-{% endfor %}
+<div id="photos-div">
+Click or tap photos to view more!
+<div class="inner-photos-div"><img src="/images/engagement-photo.jpg" /></div>
+{% for image in site.data.images %}<div class="inner-photos-div" style="display: none;"><img src="/images/engagement/{{ image.filename }}" /></div>{% endfor %}
 </div>
 
 <script>
 var visibleIndex = 0;
   
-$(".inner-photos-div").click(function(){
+$(".photos-div").click(function(){
     var innerPhotos = $(".inner-photos-div");
   
     var visiblePhoto = innerPhotos.get(visibleIndex);
