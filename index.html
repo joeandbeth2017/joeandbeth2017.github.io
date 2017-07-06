@@ -3,8 +3,32 @@ layout: default
 title: Welcome
 ---
 
-<div><img src="/images/engagement-photo.jpg" /></div>
+<div id="photos-div">
+<div class="inner-photos-div"><img src="/images/engagement-photo.jpg" /></div>
 
 {% for image in site.data.images %}
-<div style="display: none;"><img src="/images/engagement/{{ image.filename }}" /></div>
+<div class="inner-photos-div" style="display: none;"><img src="/images/engagement/{{ image.filename }}" /></div>
 {% endfor %}
+</div>
+
+<script>
+var visibleIndex = 0;
+  
+$(".inner-photos-div").click(function(){
+    var innerPhotos = $(".inner-photos-div");
+  
+    var visiblePhoto = innerPhotos.get(visibleIndex);
+    var nextPhoto;
+  
+    if(visibleIndex + 1 >= innerPhotos.length) {
+      nextPhoto = innerPhotos.get(0);
+      visibleIndex = 0;
+    } else {
+      nextPhoto = innerPhotos.get(visibleIndex + 1);
+      visibleIndex++;
+    }
+    
+    $(visiblePhoto).hide();
+    $(visiblePhoto).show();  
+});
+</script>
