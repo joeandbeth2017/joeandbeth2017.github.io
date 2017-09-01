@@ -12,7 +12,15 @@ $(function(){
 	var difference_ms = date_ms - now_ms;
 	
 	// Convert back to days
-	var daysLeft = Math.round(difference_ms/oneDay); 
+	var daysLeft = Math.round(difference_ms/oneDay);
 	
-	$("#countdown").text(daysLeft + " days left!");
+	if(daysLeft > 0) {
+		$("#countdown").text(daysLeft + " days left!");
+	} else if(daysLeft < 0) {
+		daysLeft = 0 - daysLeft;
+		$("#countdown").text(daysLeft + " days of bliss!");
+	} else {
+		$("#countdown").text("Today's the day!");
+	}
+	
 });
